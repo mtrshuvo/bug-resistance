@@ -50,7 +50,7 @@ body {
     padding: 0;
     margin: 0;
     font-weight: 400;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 h1,h2,h3,h4,h5,h6 {
     padding: 0;
@@ -165,28 +165,28 @@ span{
 }
 
 /* Course Admission start*/
+.course_addmission_main{
+    font-family: 'Baloo Da 2', cursive !important;
 
-/* *{
+}
+main{
     font-family: 'Baloo Da 2', cursive !important;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
-  a{
-    list-style: none;
-    text-decoration: none;
-  }
   
-  body{
-    overflow-x: hidden;
-    background-color: #F2F5F9;
-    display: block;
-  } */
   
-  main{
+  
+#root> div{
+    width: 100%;
+}
+ div main{
     width: 90vw;
     margin: 0 auto;
     display: flex;
+    font-family: 'Baloo Da 2', cursive !important;
+    box-sizing: border-box;
   
   }
   
@@ -569,11 +569,11 @@ span{
   
   /********************************************* sticky sidebar *******************************/
   .sticky__sidebar__section{
-    max-width: 32%;
+    max-width: 32% !important;
     background-color: #fa3490;
     border-radius: 10px;
-    position: sticky;
-    height: 30rem;
+    position: sticky !important ;
+    height: 30rem !important;
     top: 1rem;
     right: 10%; 
     z-index: 999;
@@ -750,7 +750,7 @@ span{
     
   
     .sticky__sidebar__section{
-      height: 40rem;
+      height: 40rem !important;
   
     } 
     .sticky__btn{
@@ -775,7 +775,7 @@ span{
   }
   @media only screen and (max-width: 1150px) {
     .sticky__sidebar__section{
-      height: 41rem;
+      height: 41rem !important;
   
     } 
     .sticky__btn{
@@ -788,7 +788,7 @@ span{
     } 
   }@media only screen and (max-width: 950px) {
     .sticky__sidebar__section{
-      height: 42rem;
+      height: 42rem !important;
   
     } 
   }@media only screen and (max-width: 850px) {
@@ -803,13 +803,13 @@ span{
   
   }@media only screen and (min-width: 800px) {
     .sticky__sidebar__section{
-      /* height: 42rem; */
+      height: 44rem !important;
   
     } 
   }
   @media only screen and (max-width: 768px) {
     .sticky__sidebar__section{
-      height: 43rem;
+      height: 43rem !important;
   
     } 
   }

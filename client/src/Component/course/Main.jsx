@@ -17,6 +17,7 @@ import BottomSticky from "./BottomSticky";
 import Footer from '../Shared/Footer'
 // import "bootstrap/dist/css/bootstrap.min.css"
 import oneImg from "../../images/one.jpg"
+import Navbar from "../Shared/Navbar";
 
 let selectedValues = [
   "বিশ্ববিদ্যালয় পর্যায়ের শিক্ষার্থী (কম্পিউটার সায়েন্স/আইটি বিভাগ)",
@@ -82,8 +83,9 @@ function Main() {
 
   return (
     <>
+
       {/* <div className="div__overlay"></div> */}
-      <main >
+      <main className="course_addmission_main" >
         <section className="course__top__section">
           <div className="course__top__section__wrapper">
             <div className="course__top">
